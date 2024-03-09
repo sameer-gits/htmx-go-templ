@@ -10,7 +10,7 @@ func Rcontent(w http.ResponseWriter, r *http.Request) {
 		Contenttwo string
 		Content string
 	}{
-		Contenttwo: "This is content 2",
+		Contenttwo: "This is Content 2",
 	}
 
 	contentTmpl, err := template.ParseFiles("dynamic/content2.html")

@@ -13,9 +13,9 @@ func Index(w http.ResponseWriter, r *http.Request) {
 		Heading string
 		Content string
 	}{
-		Title:   "This is a Title",
-		Heading: "This is a Heading",
-		Content: "This is a Content",
+		Title:   "This is Title",
+		Heading: "This is Heading",
+		Content: "This is Content 1",
 	}
 
 	contentTmpl, err := template.ParseFiles("index.html")
